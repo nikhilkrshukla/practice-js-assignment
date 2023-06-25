@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ConsultBae | Assessment | Angular Developer</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <h2><u>ConsultBae - Assessment</u></h2>
+    <div>
+        <h4>General Rules:</h4><br/>
+        <p>
+            1: For bonus points avoid using the in-built function.<br/>
+            2: Preferred lang is PHP/JS.<br/>
+            3: Plz provide a full file of the code which can be executed to check the output.<br/>
+            4: Any assumptions shall be clearly highlighted.
+        </p> 
+    </div>
+    <div>
+        <h4>Q1: Convert String to Camel Case:</h4><br/>
+        <p>
+            Write Function which converts input String into camel casing and use delimiter also as per input.<br/>
+            Capitalize 1st word only if original word was capital. Following words will always be capitalized.<br/>
+            Examples: Function: camelCase("input", "delimiter")<br/>
+            camelCase("the-test-case", "-") --> theTestCase<br/>
+            camelCase("The_First_Word_Capital", "_") --> TheFirstWordCapital
+        </p>
+    </div>
+    <div>
+        <h4> Q2: Custom Parser:</h4><br/>
+        <p>
+            Write a function which will parse input string as per below logic & return the output as array.<br/>
+            Consider initial value as 0<br/>
+            p : Adds up value by 1<br/>
+            m : reduces value by 1<br/>
+            s : square - like if value is 4 - it will become 16<br/>
+            o : saves the output in array to be returned.<br/>
+            Invalid char shall be skipped. Ex: parse("ppppsmoso") => [ 15, 225 ] 
+        </p>
+    </div>
+    <div>
+        <h4>Q3: Find the missing alphabet: </h4><br/>
+        <p>
+            Write a function to find extra characters from the input string as per below logic, and return output as integer.<br/>
+            Legal characters are only a-n, consider case.<br/>
+            Any character beyond this range shall be counted as extra.<br/>
+            Ex: aaabdbnhaikjjm --> 0 abaxbdbbyyhwawiwjjjwem --> 8
+        </p>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
